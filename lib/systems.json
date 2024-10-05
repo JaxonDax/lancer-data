@@ -3518,5 +3518,42 @@
     ],
     "description": "Gained from the <i>Walking Armory: Rank III</i> pilot talent.",
     "license_id": ""
+  },
+  {
+    "id": "LAFF_base_hacking_kitV2",
+    "name": "Base Hacking Kit V2",
+    "sp": 0,
+    "source": "GMS",
+    "license": "GMS",
+    "license_level": 0,
+    "effect": "Your Mech gains the ability to use basic hacking functions",
+    "description": "Made to give basic hacking actions in Foundry",
+    "tags": [
+    {
+      "id": "tg_unique"
+    }],
+    "license_id": "",
+    "actions":[
+      {
+        "name": "BOLSTER",
+        "activation": "Quick Tech",
+        "detail": "When you BOLSTER, you use your mech’s formidable processing power to enhance another character’s systems. To BOLSTER, choose a character within SENSORS. They receive +2 Accuracy on the next skill check or save they make between now and the end of their next turn. Characters can only benefit from one BOLSTER at a time."
+      },
+      {
+        "name": "SCAN",
+        "activation": "Quick Tech",
+        "detail": "When you SCAN, you use your mech’s powerful sensors to perform a deep scan on an enemy. To SCAN, choose a character or object within SENSORS and line of sight, then ask the GM for one of the following pieces of information, which they must answer honestly: 1. Your target’s weapons, systems, and full statistics (HP, SPEED, EVASION, ARMOR, MECH SKILLS, and so on). 2. One piece of hidden information about the target, such as confidential cargo or data, current mission, the identity of the pilot, and so on. 3. Generic or public information about the target that can be pulled from an info bank or records, such as the model number of a mech. Any information gathered is only current at the time of the SCAN – if the target later takes damage, for instance, you don’t receive an update."
+      },
+      {
+        "name": "Lock On",
+        "activation": "Quick Tech",
+        "detail": "When you LOCK ON, you digitally mark a target, lighting them up for your teammates’ targeting systems and exposing weak points. To LOCK ON, choose a character within SENSORS and line of sight. They gain the LOCK ON condition."
+      },
+      {
+        "name": "Fragment Signal",
+        "activation": "Invade",
+        "detail": "You feed false information, obscene messages, or phantom signals to your target’s computing core. They become IMPAIRED and SLOWED until the end of their next turn.<br><span class='horus--subtle'>[Feeding false truths to the enemy]</span>"
+      }
+    ]
   }
 ]

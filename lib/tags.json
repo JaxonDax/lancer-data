@@ -64,6 +64,11 @@
     "description": "This weapon must be reloaded after each use. Mechs can reload with Stabilize and some systems."
   },
   {
+    "id": "tg_magazine",
+    "name": "Loading {VAL}",
+    "description": "This weapon must be reloaded after expending the magazine. Mechs can reload with Stabilize and some systems."
+  },
+  {
     "id": "tg_ordnance",
     "name": "Ordnance",
     "description": "This weapon can only be fired before the user moves or takes any other actions on their turn, excepting Protocols. The user can still act and move normally after attacking. Additionally, because of its size, this weapon can’t be used against targets in engagement with the user’s mech, and cannot be used for Overwatch."
